@@ -1,0 +1,9 @@
+{
+  "name": "wf2-mock-services",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mock LLM endpoint with a chaos switch, plus the result cache and cost ledger. Zero dependencies.",
+  "engines": { "node": ">=22.5.0" },
+  "scripts": { "start": "node server.js" }
+}
